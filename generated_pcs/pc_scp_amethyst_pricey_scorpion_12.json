@@ -1,0 +1,95 @@
+{
+  "character_id": "pc_scp_amethyst_pricey_scorpion_12",
+  "name": "amethyst pricey scorpion",
+  "side": "players",
+  "player": true,
+  "role_tags": [
+    "magic"
+  ],
+  "level_range": [
+    1,
+    3
+  ],
+  "stat_profile": {
+    "base_point_buy": 28,
+    "bias": {
+      "high": [
+        "int"
+      ],
+      "medium": [
+        "will",
+        "dex"
+      ],
+      "low": [
+        "str",
+        "con"
+      ]
+    }
+  },
+  "axes_pool": [
+    "ax_thermal",
+    "ax_luminous",
+    "ax_metamagic"
+  ],
+  "proficiency_profile": {
+    "mandatory": {},
+    "optional": {
+      "light_weapons_rank": [
+        0,
+        1
+      ]
+    }
+  },
+  "pools_profile": {
+    "HP_per_level": [
+      6,
+      8
+    ],
+    "ENT_per_level": [
+      9,
+      11
+    ]
+  },
+  "loadout_profile": {
+    "weapon_pool": "pools/weapons_arcane_focus.json",
+    "armor_pool": "pools/armor_ritual.json",
+    "trinket_pool": "pools/trinkets_skazan.json"
+  },
+  "spell_profile": {
+    "max_spells": 4,
+    "spell_pool": [
+      "sp_fireball",
+      "sp_flash_steam",
+      "sp_null_touch",
+      "sp_spell_amp",
+      "sp_invisible"
+    ]
+  },
+  "narrative_tags": [
+    "containment_specialist",
+    "entropy_handler"
+  ],
+  "level": 3,
+  "axes": [
+    "ax_thermal",
+    "ax_luminous"
+  ],
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "inventory": [
+    {
+      "item_id": "wp_gauntlet",
+      "equipped": true
+    }
+  ],
+  "stats": {
+    "str": 10,
+    "dex": 12,
+    "con": 10,
+    "int": 14,
+    "will": 12,
+    "init_bonus": 1
+  }
+}

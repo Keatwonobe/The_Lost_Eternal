@@ -1,0 +1,96 @@
+{
+  "character_id": "pc_scp_lilac_sentimental_lynx_10",
+  "name": "lilac sentimental lynx",
+  "side": "players",
+  "player": true,
+  "role_tags": [
+    "physique"
+  ],
+  "level_range": [
+    1,
+    3
+  ],
+  "stat_profile": {
+    "base_point_buy": 28,
+    "bias": {
+      "high": [
+        "str",
+        "con"
+      ],
+      "medium": [
+        "dex"
+      ],
+      "low": [
+        "int",
+        "will"
+      ]
+    }
+  },
+  "axes_pool": [
+    "ax_metal",
+    "ax_kinetic",
+    "ax_biotic"
+  ],
+  "proficiency_profile": {
+    "mandatory": {
+      "hammer_rank": 1
+    },
+    "optional": {
+      "swordsmanship_rank": [
+        0,
+        1
+      ],
+      "light_weapons_rank": [
+        0,
+        1
+      ]
+    }
+  },
+  "pools_profile": {
+    "HP_per_level": [
+      10,
+      12
+    ],
+    "ENT_per_level": [
+      4,
+      6
+    ]
+  },
+  "loadout_profile": {
+    "weapon_pool": "pools/weapons_melee.json",
+    "armor_pool": "pools/armor_lightmed.json",
+    "trinket_pool": "pools/trinkets_social.json"
+  },
+  "spell_profile": {
+    "max_spells": 0,
+    "spell_pool": []
+  },
+  "narrative_tags": [
+    "frontliner",
+    "bodyguard",
+    "union_muscle"
+  ],
+  "level": 3,
+  "axes": [
+    "ax_kinetic",
+    "ax_biotic"
+  ],
+  "position": {
+    "x": 0,
+    "y": 0
+  },
+  "inventory": [
+    {
+      "item_id": "wp_gauntlet",
+      "equipped": true
+    }
+  ],
+  "stats": {
+    "str": 14,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "will": 10,
+    "init_bonus": 1
+  }
+}
