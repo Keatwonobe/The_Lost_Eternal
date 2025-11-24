@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_metamagic",
+  "name": "Metamagic",
+  "group": "Esoteric",
+  "angle": 5.5292,
+  "opposite_angle": 2.3876,
+  "positive_house": {
+    "name": "Arcane",
+    "semantics": [
+      "flux",
+      "magic"
+    ],
+    "contact_influences": [
+      "inf_arcane_boost"
+    ],
+    "proxy_influences": [
+      "inf_spell_amp"
+    ]
+  },
+  "negative_house": {
+    "name": "Nullic",
+    "semantics": [
+      "anti-magic",
+      "dissonance"
+    ],
+    "contact_influences": [
+      "inf_dispel_touch"
+    ],
+    "proxy_influences": [
+      "inf_anti_magic_field"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.4
+  },
+  "hilbert_id": "e_23"
+}

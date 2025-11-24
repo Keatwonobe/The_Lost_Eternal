@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_temporal",
+  "name": "Temporal",
+  "group": "Esoteric",
+  "angle": 4.0212,
+  "opposite_angle": 0.8796,
+  "positive_house": {
+    "name": "Kairic",
+    "semantics": [
+      "time",
+      "acceleration"
+    ],
+    "contact_influences": [
+      "inf_haste"
+    ],
+    "proxy_influences": [
+      "inf_time_flow"
+    ]
+  },
+  "negative_house": {
+    "name": "Static",
+    "semantics": [
+      "stasis",
+      "stillness"
+    ],
+    "contact_influences": [
+      "inf_slow"
+    ],
+    "proxy_influences": [
+      "inf_time_lock"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 3,
+    "multi_axis_surcharge": 0.5
+  },
+  "hilbert_id": "e_17"
+}

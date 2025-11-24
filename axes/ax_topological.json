@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_topological",
+  "name": "Topological",
+  "group": "Esoteric",
+  "angle": 5.2779,
+  "opposite_angle": 2.1363,
+  "positive_house": {
+    "name": "Haptic",
+    "semantics": [
+      "connection",
+      "binding"
+    ],
+    "contact_influences": [
+      "inf_bind"
+    ],
+    "proxy_influences": [
+      "inf_link_party"
+    ]
+  },
+  "negative_house": {
+    "name": "Scissic",
+    "semantics": [
+      "sever",
+      "cut"
+    ],
+    "contact_influences": [
+      "inf_sever_link"
+    ],
+    "proxy_influences": [
+      "inf_null_route"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.35
+  },
+  "hilbert_id": "e_22"
+}

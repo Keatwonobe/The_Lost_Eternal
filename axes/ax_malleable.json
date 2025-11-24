@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_malleable",
+  "name": "Malleable",
+  "group": "Esoteric",
+  "angle": 5.7805,
+  "opposite_angle": 2.6389,
+  "positive_house": {
+    "name": "Protean",
+    "semantics": [
+      "change",
+      "transmute"
+    ],
+    "contact_influences": [
+      "inf_transmute"
+    ],
+    "proxy_influences": [
+      "inf_soften_form"
+    ]
+  },
+  "negative_house": {
+    "name": "Dural",
+    "semantics": [
+      "permanence",
+      "stasis"
+    ],
+    "contact_influences": [
+      "inf_lock_form"
+    ],
+    "proxy_influences": [
+      "inf_harden_field"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.25
+  },
+  "hilbert_id": "e_24"
+}

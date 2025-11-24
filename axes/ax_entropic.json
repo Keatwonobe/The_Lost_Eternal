@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_entropic",
+  "name": "Entropic",
+  "group": "Metaphysical",
+  "angle": 1.508,
+  "opposite_angle": 4.6496,
+  "positive_house": {
+    "name": "Coherent",
+    "semantics": [
+      "order",
+      "law"
+    ],
+    "contact_influences": [
+      "inf_stabilize_system"
+    ],
+    "proxy_influences": [
+      "inf_reduce_noise"
+    ]
+  },
+  "negative_house": {
+    "name": "Stochastic",
+    "semantics": [
+      "chaos",
+      "ruin"
+    ],
+    "contact_influences": [
+      "inf_disrupt"
+    ],
+    "proxy_influences": [
+      "inf_entropy_spike"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.4
+  },
+  "hilbert_id": "e_7"
+}

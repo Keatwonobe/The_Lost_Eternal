@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_vibrational",
+  "name": "Vibrational",
+  "group": "Cognitive",
+  "angle": 3.5186,
+  "opposite_angle": 0.66,
+  "positive_house": {
+    "name": "Sonic",
+    "semantics": [
+      "sound",
+      "resonance"
+    ],
+    "contact_influences": [
+      "inf_sonic_blast"
+    ],
+    "proxy_influences": [
+      "inf_resonance_field"
+    ]
+  },
+  "negative_house": {
+    "name": "Quiet",
+    "semantics": [
+      "silence",
+      "dampen"
+    ],
+    "contact_influences": [
+      "inf_mute"
+    ],
+    "proxy_influences": [
+      "inf_silence_aura"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.25
+  },
+  "hilbert_id": "e_15"
+}

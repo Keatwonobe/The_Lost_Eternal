@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_oneiric",
+  "name": "Oneiric",
+  "group": "Esoteric",
+  "angle": 6.0319,
+  "opposite_angle": 2.8903,
+  "positive_house": {
+    "name": "Phantasmal",
+    "semantics": [
+      "dream",
+      "subjective"
+    ],
+    "contact_influences": [
+      "inf_dream_infect"
+    ],
+    "proxy_influences": [
+      "inf_oneiric_tick"
+    ]
+  },
+  "negative_house": {
+    "name": "VESP",
+    "semantics": [
+      "reality",
+      "objective"
+    ],
+    "contact_influences": [
+      "inf_manifest_reality"
+    ],
+    "proxy_influences": [
+      "inf_truth_pulse"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.35
+  },
+  "hilbert_id": "e_25"
+}

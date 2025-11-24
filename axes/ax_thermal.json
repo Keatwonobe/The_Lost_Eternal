@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_thermal",
+  "name": "Thermal",
+  "group": "Primal",
+  "angle": 0.0,
+  "opposite_angle": 3.1416,
+  "positive_house": {
+    "name": "Pyric",
+    "semantics": [
+      "fire",
+      "heat"
+    ],
+    "contact_influences": [
+      "inf_burn"
+    ],
+    "proxy_influences": [
+      "inf_radiant_heat"
+    ]
+  },
+  "negative_house": {
+    "name": "Cryic",
+    "semantics": [
+      "ice",
+      "cold"
+    ],
+    "contact_influences": [
+      "inf_freeze"
+    ],
+    "proxy_influences": [
+      "inf_cold_aura"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.25
+  },
+  "hilbert_id": "e_1"
+}

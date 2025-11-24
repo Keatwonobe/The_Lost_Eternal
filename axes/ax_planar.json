@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_planar",
+  "name": "Planar",
+  "group": "Metaphysical",
+  "angle": 2.0106,
+  "opposite_angle": 5.1522,
+  "positive_house": {
+    "name": "Anabolic",
+    "semantics": [
+      "positive energy",
+      "bolster"
+    ],
+    "contact_influences": [
+      "inf_pos_energy_burst"
+    ],
+    "proxy_influences": [
+      "inf_plane_anchor"
+    ]
+  },
+  "negative_house": {
+    "name": "Catabolic",
+    "semantics": [
+      "negative energy",
+      "drain"
+    ],
+    "contact_influences": [
+      "inf_neg_energy_rend"
+    ],
+    "proxy_influences": [
+      "inf_plane_siphon"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 3,
+    "multi_axis_surcharge": 0.45
+  },
+  "hilbert_id": "e_9"
+}

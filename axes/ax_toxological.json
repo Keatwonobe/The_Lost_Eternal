@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_toxological",
+  "name": "Toxilogical",
+  "group": "Metaphysical",
+  "angle": 2.2619,
+  "opposite_angle": 5.4035,
+  "positive_house": {
+    "name": "Virulent",
+    "semantics": [
+      "poison",
+      "toxin"
+    ],
+    "contact_influences": [
+      "inf_apply_poison"
+    ],
+    "proxy_influences": [
+      "inf_venom_cloud"
+    ]
+  },
+  "negative_house": {
+    "name": "Purified",
+    "semantics": [
+      "panacea",
+      "purity"
+    ],
+    "contact_influences": [
+      "inf_cure_toxin"
+    ],
+    "proxy_influences": [
+      "inf_purify_zone"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.3
+  },
+  "hilbert_id": "e_10"
+}

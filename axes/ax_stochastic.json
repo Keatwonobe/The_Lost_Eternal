@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_stochastic",
+  "name": "Stochastic",
+  "group": "Esoteric",
+  "angle": 4.7752,
+  "opposite_angle": 1.6336,
+  "positive_house": {
+    "name": "Tychic",
+    "semantics": [
+      "luck",
+      "chance"
+    ],
+    "contact_influences": [
+      "inf_luck_touch"
+    ],
+    "proxy_influences": [
+      "inf_probability_tilt"
+    ]
+  },
+  "negative_house": {
+    "name": "Moric",
+    "semantics": [
+      "fate",
+      "destiny"
+    ],
+    "contact_influences": [
+      "inf_fate_lock"
+    ],
+    "proxy_influences": [
+      "inf_bind_outcome"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.3
+  },
+  "hilbert_id": "e_20"
+}

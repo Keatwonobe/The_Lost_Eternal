@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_affective",
+  "name": "Affective",
+  "group": "Cognitive",
+  "angle": 3.016,
+  "opposite_angle": 0.1574,
+  "positive_house": {
+    "name": "Resonant",
+    "semantics": [
+      "empathy",
+      "joy"
+    ],
+    "contact_influences": [
+      "inf_euphoric_touch"
+    ],
+    "proxy_influences": [
+      "inf_emotion_aura"
+    ]
+  },
+  "negative_house": {
+    "name": "Nescient",
+    "semantics": [
+      "apathy",
+      "sorrow"
+    ],
+    "contact_influences": [
+      "inf_depress"
+    ],
+    "proxy_influences": [
+      "inf_dull_emotion"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.25
+  },
+  "hilbert_id": "e_13"
+}

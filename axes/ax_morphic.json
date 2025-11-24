@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_morphic",
+  "name": "Morphic",
+  "group": "Metaphysical",
+  "angle": 1.7593,
+  "opposite_angle": 4.9009,
+  "positive_house": {
+    "name": "Ectropic",
+    "semantics": [
+      "creation",
+      "form"
+    ],
+    "contact_influences": [
+      "inf_create_form"
+    ],
+    "proxy_influences": [
+      "inf_shape_field"
+    ]
+  },
+  "negative_house": {
+    "name": "Catatropic",
+    "semantics": [
+      "destruction",
+      "unmaking"
+    ],
+    "contact_influences": [
+      "inf_fracture_form"
+    ],
+    "proxy_influences": [
+      "inf_unravel"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.4
+  },
+  "hilbert_id": "e_8"
+}

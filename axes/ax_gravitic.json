@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_gravitic",
+  "name": "Gravitic",
+  "group": "Esoteric",
+  "angle": 4.5239,
+  "opposite_angle": 1.3823,
+  "positive_house": {
+    "name": "Baric",
+    "semantics": [
+      "gravity",
+      "weight"
+    ],
+    "contact_influences": [
+      "inf_gravity_crush"
+    ],
+    "proxy_influences": [
+      "inf_local_grav_well"
+    ]
+  },
+  "negative_house": {
+    "name": "Leptonic",
+    "semantics": [
+      "levity",
+      "weightless"
+    ],
+    "contact_influences": [
+      "inf_levitate"
+    ],
+    "proxy_influences": [
+      "inf_repulsion_field"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.35
+  },
+  "hilbert_id": "e_19"
+}

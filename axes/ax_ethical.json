@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_ethical",
+  "name": "Ethical",
+  "group": "Cognitive",
+  "angle": 2.5133,
+  "opposite_angle": 5.6549,
+  "positive_house": {
+    "name": "Koinonic",
+    "semantics": [
+      "altruism",
+      "communal"
+    ],
+    "contact_influences": [
+      "inf_boost_ally"
+    ],
+    "proxy_influences": [
+      "inf_share_entropy"
+    ]
+  },
+  "negative_house": {
+    "name": "Idionic",
+    "semantics": [
+      "egoism",
+      "selfish"
+    ],
+    "contact_influences": [
+      "inf_steal_entropy"
+    ],
+    "proxy_influences": [
+      "inf_self_buff"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.35
+  },
+  "hilbert_id": "e_11"
+}

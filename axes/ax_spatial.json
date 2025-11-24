@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_spatial",
+  "name": "Spatial",
+  "group": "Esoteric",
+  "angle": 4.2726,
+  "opposite_angle": 1.131,
+  "positive_house": {
+    "name": "Hylomorphic",
+    "semantics": [
+      "presence",
+      "matter"
+    ],
+    "contact_influences": [
+      "inf_manifest_matter"
+    ],
+    "proxy_influences": [
+      "inf_density_field"
+    ]
+  },
+  "negative_house": {
+    "name": "Kenomic",
+    "semantics": [
+      "void",
+      "absence"
+    ],
+    "contact_influences": [
+      "inf_banish"
+    ],
+    "proxy_influences": [
+      "inf_space_gap"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.4
+  },
+  "hilbert_id": "e_18"
+}

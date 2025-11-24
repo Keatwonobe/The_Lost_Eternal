@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_aesthetic",
+  "name": "Aesthetic",
+  "group": "Cognitive",
+  "angle": 3.7699,
+  "opposite_angle": 0.6283,
+  "positive_house": {
+    "name": "Calonic",
+    "semantics": [
+      "beauty",
+      "harmony"
+    ],
+    "contact_influences": [
+      "inf_charm"
+    ],
+    "proxy_influences": [
+      "inf_harmonize_scene"
+    ]
+  },
+  "negative_house": {
+    "name": "Teratic",
+    "semantics": [
+      "horror",
+      "dissonance"
+    ],
+    "contact_influences": [
+      "inf_frighten_gaze"
+    ],
+    "proxy_influences": [
+      "inf_unsettle_field"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.25
+  },
+  "hilbert_id": "e_16"
+}

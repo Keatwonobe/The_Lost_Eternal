@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_noetic",
+  "name": "Noetic",
+  "group": "Esoteric",
+  "angle": 5.0265,
+  "opposite_angle": 1.885,
+  "positive_house": {
+    "name": "Gnostic",
+    "semantics": [
+      "knowing",
+      "access"
+    ],
+    "contact_influences": [
+      "inf_download_knowledge"
+    ],
+    "proxy_influences": [
+      "inf_open_channel"
+    ]
+  },
+  "negative_house": {
+    "name": "Agnostic",
+    "semantics": [
+      "mystery",
+      "occlusion"
+    ],
+    "contact_influences": [
+      "inf_hide_truth"
+    ],
+    "proxy_influences": [
+      "inf_block_channel"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.25
+  },
+  "hilbert_id": "e_21"
+}

@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_psychic",
+  "name": "Psionic",
+  "group": "Cognitive",
+  "angle": 2.7646,
+  "opposite_angle": 5.9062,
+  "positive_house": {
+    "name": "Imperic",
+    "semantics": [
+      "domination",
+      "will"
+    ],
+    "contact_influences": [
+      "inf_dominate"
+    ],
+    "proxy_influences": [
+      "inf_telepathic_link"
+    ]
+  },
+  "negative_house": {
+    "name": "Phobic",
+    "semantics": [
+      "fear",
+      "submission"
+    ],
+    "contact_influences": [
+      "inf_frighten"
+    ],
+    "proxy_influences": [
+      "inf_suppress_will"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.35
+  },
+  "hilbert_id": "e_12"
+}

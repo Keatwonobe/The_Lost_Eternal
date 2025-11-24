@@ -1,0 +1,40 @@
+{
+  "axis_id": "ax_material",
+  "name": "Material",
+  "group": "Primal",
+  "angle": 0.5027,
+  "opposite_angle": 3.6442,
+  "positive_house": {
+    "name": "Lithic",
+    "semantics": [
+      "earth",
+      "stone",
+      "solid"
+    ],
+    "contact_influences": [
+      "inf_raise_earth"
+    ],
+    "proxy_influences": [
+      "inf_harden_surface"
+    ]
+  },
+  "negative_house": {
+    "name": "Aethic",
+    "semantics": [
+      "air",
+      "gas",
+      "rarify"
+    ],
+    "contact_influences": [
+      "inf_air_displace"
+    ],
+    "proxy_influences": [
+      "inf_thin_atmos"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.2
+  },
+  "hilbert_id": "e_3"
+}

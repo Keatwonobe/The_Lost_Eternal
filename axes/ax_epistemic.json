@@ -1,0 +1,39 @@
+{
+  "axis_id": "ax_epistemic",
+  "name": "Epistemic",
+  "group": "Cognitive",
+  "angle": 3.2673,
+  "opposite_angle": 0.4087,
+  "positive_house": {
+    "name": "Alethic",
+    "semantics": [
+      "truth",
+      "clarity",
+      "cartography"
+    ],
+    "contact_influences": [
+      "inf_reveal_object"
+    ],
+    "proxy_influences": [
+      "inf_map_area"
+    ]
+  },
+  "negative_house": {
+    "name": "Pseudos",
+    "semantics": [
+      "illusion",
+      "forgery"
+    ],
+    "contact_influences": [
+      "inf_create_false"
+    ],
+    "proxy_influences": [
+      "inf_obscure_knowledge"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.2
+  },
+  "hilbert_id": "e_14"
+}

@@ -1,0 +1,39 @@
+{
+  "axis_id": "ax_luminous",
+  "name": "Luminous",
+  "group": "Primal",
+  "angle": 1.2566,
+  "opposite_angle": 4.3982,
+  "positive_house": {
+    "name": "Radiant",
+    "semantics": [
+      "light",
+      "photon",
+      "holy"
+    ],
+    "contact_influences": [
+      "inf_radiant_strike"
+    ],
+    "proxy_influences": [
+      "inf_light_zone"
+    ]
+  },
+  "negative_house": {
+    "name": "Umbral",
+    "semantics": [
+      "dark",
+      "absence"
+    ],
+    "contact_influences": [
+      "inf_shadow_bite"
+    ],
+    "proxy_influences": [
+      "inf_darkness"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.25
+  },
+  "hilbert_id": "e_6"
+}

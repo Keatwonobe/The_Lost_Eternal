@@ -1,0 +1,89 @@
+{
+  "interaction_profiles": {
+    "burn": {
+      "type": "contact",
+      "effects": [
+        {
+          "effect": "damage",
+          "energy_type": "fire",
+          "magnitude": "1d6"
+        },
+        {
+          "effect": "ignite",
+          "chance": 0.25
+        }
+      ]
+    },
+    "freeze": {
+      "type": "contact",
+      "effects": [
+        {
+          "effect": "damage",
+          "energy_type": "cold",
+          "magnitude": "1d6"
+        },
+        {
+          "effect": "slow",
+          "duration_rounds": 1
+        }
+      ]
+    },
+    "radiant_heat": {
+      "type": "proxy",
+      "range": "10ft",
+      "effects": [
+        {
+          "effect": "damage",
+          "energy_type": "fire",
+          "magnitude": "1d4"
+        }
+      ]
+    },
+    "aura_cold": {
+      "type": "proxy",
+      "range": "10ft",
+      "effects": [
+        {
+          "effect": "damage",
+          "energy_type": "cold",
+          "magnitude": "1d4"
+        }
+      ]
+    },
+    "oneiric_tick": {
+      "type": "proxy",
+      "range": "line_of_sight",
+      "effects": [
+        {
+          "effect": "apply_state",
+          "state": "drowsy",
+          "intensity": 1
+        },
+        {
+          "effect": "open_channel",
+          "domain": "dream"
+        }
+      ]
+    },
+    "flash_steam": {
+      "type": "contact",
+      "effects": [
+        {
+          "effect": "damage",
+          "energy_type": "fire",
+          "magnitude": "1d4"
+        },
+        {
+          "effect": "damage",
+          "energy_type": "cold",
+          "magnitude": "1d4"
+        },
+        {
+          "effect": "obscure",
+          "duration_rounds": 1
+        }
+      ]
+    }
+  },
+  "axis_id": "interaction_profiles"
+}

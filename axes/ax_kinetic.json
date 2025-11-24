@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_kinetic",
+  "name": "Kinetic",
+  "group": "Primal",
+  "angle": 0.2513,
+  "opposite_angle": 3.3929,
+  "positive_house": {
+    "name": "Concussive",
+    "semantics": [
+      "blunt",
+      "force"
+    ],
+    "contact_influences": [
+      "inf_force_impact"
+    ],
+    "proxy_influences": [
+      "inf_shockwave"
+    ]
+  },
+  "negative_house": {
+    "name": "Phasic",
+    "semantics": [
+      "sharp",
+      "pierce"
+    ],
+    "contact_influences": [
+      "inf_pierce"
+    ],
+    "proxy_influences": [
+      "inf_vibro_edge"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.25
+  },
+  "hilbert_id": "e_2"
+}

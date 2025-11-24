@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_conductive",
+  "name": "Conductive",
+  "group": "Primal",
+  "angle": 0.754,
+  "opposite_angle": 3.8956,
+  "positive_house": {
+    "name": "Voltaic",
+    "semantics": [
+      "lightning",
+      "charge"
+    ],
+    "contact_influences": [
+      "inf_lightning_bolt"
+    ],
+    "proxy_influences": [
+      "inf_charge_field"
+    ]
+  },
+  "negative_house": {
+    "name": "Fluctuant",
+    "semantics": [
+      "water",
+      "flow"
+    ],
+    "contact_influences": [
+      "inf_water_flow"
+    ],
+    "proxy_influences": [
+      "inf_moisture_field"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 1,
+    "multi_axis_surcharge": 0.3
+  },
+  "hilbert_id": "e_4"
+}

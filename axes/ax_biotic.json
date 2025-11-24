@@ -1,0 +1,38 @@
+{
+  "axis_id": "ax_biotic",
+  "name": "Biotic",
+  "group": "Primal",
+  "angle": 1.0053,
+  "opposite_angle": 4.1469,
+  "positive_house": {
+    "name": "Vitalic",
+    "semantics": [
+      "life",
+      "growth"
+    ],
+    "contact_influences": [
+      "inf_heal_touch"
+    ],
+    "proxy_influences": [
+      "inf_regen_aura"
+    ]
+  },
+  "negative_house": {
+    "name": "Necrotic",
+    "semantics": [
+      "decay",
+      "death"
+    ],
+    "contact_influences": [
+      "inf_rot_touch"
+    ],
+    "proxy_influences": [
+      "inf_decay_field"
+    ]
+  },
+  "budget_rules": {
+    "base_entropy_cost": 2,
+    "multi_axis_surcharge": 0.35
+  },
+  "hilbert_id": "e_5"
+}
